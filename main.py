@@ -26,7 +26,7 @@ class Motor:
     if nuevo_tipo in lista_tipos:
       self.tipo=nuevo_tipo
 
-  class Auto:
+class Auto:
     cantidadCreados=0
     def  __init__(self,modelo,precio,asientos:list,marca,motor,registro):
       self.modelo=modelo
